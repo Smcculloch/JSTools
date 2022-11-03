@@ -1,6 +1,6 @@
 (function () {
   javascript: (function () {
-    var divElement = document.querySelector('body > div:first-of-type');
+    var divElement = document.querySelector('div[style*="z-index: 3000"]');
     divElement.remove();
   })();
 })();
